@@ -92,19 +92,68 @@ footer {
     flex: 1;
 }
 
-.project img {
-    width: 100%;
+.project1 {
+    text-align: right;
+    border-style: none;
+    background-image: url("../images/IMG_0157.JPG");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
     border-style: solid;
     border-width: 10px;
     border-color: var(--primary-color);
 }
 
-.project-name {
+.project2 {
+    text-align: right;
     border-style: none;
-    background-image: url("../images/IMG_0157.JPG");
+    background-image: url("../images/IMG_2196.JPG");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--primary-color);
+}
+
+.project3 {
+    text-align: right;
+    border-style: none;
+    background-image: url("../images/IMG_2023.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--primary-color);
+}
+
+.project4 {
+    text-align: right;
+    border-style: none;
+    background-image: url("../images/IMG_0301.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--primary-color);
 }
 
 .project:hover {
