@@ -1,7 +1,7 @@
 :root {
-    --primary-color: purple;
-    --secondary-color: turquoise;
-    --tertiary-color: lavender;
+    --primary-color: navy;
+    --secondary-color: pink;
+    --tertiary-color: lightblue;
 }
 
 *{
@@ -55,18 +55,19 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
 }
 /* end styles to <header> */
 
+/* start hero section */
 .herobanner {
-    height: 20vh;
+    height: 30vh;
     background-image: url(../images/IMG_0157.JPG);
     background-position: center;
-    opacity: 0.5;
+    opacity: 0.9;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -77,77 +78,90 @@ header nav ul li a:hover {
     color: white;
     padding: 1.5em;
 }
-
-.section-title {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin: 10px 600px 10px 10px;
-}
+/* end hero section */
 
 .section {
     display: flex;
     width: 100%;
+    flex-basis: content;
 }
 
 .section__title {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: flex-end;
     padding-right: 20px;
+    margin-left: 15vh;
+    margin-right: 5vh;
+    font-size: xx-large;
+    border-right: var(--primary-color) solid;
+}
+
+.aboutme__p {
+    margin-right: 2vh;
+    margin-left: 2vh;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .container__item {
-    height: 100px;
-    width: 100px;
-}
-
-.picture-1 {
     height: 300px;
-    width: 700px;
-    background-image: url(../images/IMG_0301.JPG);
+    width: 47%;
+    margin: 0 0 22px 0;
     background-position: center;
     opacity: 0.5;
     background-size: cover;
+    border: var(--primary-color) solid 10px;
+}
+.container__item:hover {
+    background-color: var(--tertiary-color);
+    opacity: 0.8;
+} 
+
+.container__title {
+    background-color: var(--primary-color);
+    width: 35%;
+    height: 20%;
+    align-items: center;
+    color: white;
+    opacity: none;
+}
+
+.picture-1 {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/IMG_0301.JPG);
+    margin: 20px;
 }
 
 .picture-2 {
     background-image: url(../images/IMG_2023.JPG);
-    background-position: center;
-    opacity: 0.5;
-    background-size: cover;
+    margin: 0 22px 22px 0;
 }
 
 .picture-3 {
     background-image: url(../images/IMG_2169.JPG);
-    background-position: center;
-    opacity: 0.5;
-    background-size: cover;
 }
 
 .picture-4 {
     background-image: url(../images/IMG_2200.JPG);
-    background-position: center;
-    opacity: 0.5;
-    background-size: cover;
+    margin: 0 22px 22px 0;
 }
 
 .picture-5 {
     background-image: url(../images/IMG_2297.JPG);
-    background-position: center;
-    opacity: 0.5;
-    background-size: cover;
 }
 
+/* start footer style */
 footer {
     display: flex;
     align-items: right;
+    margin-bottom: 40px;
 }
 
 .contact {
@@ -156,94 +170,4 @@ footer {
     justify-content: space-evenly;
     width: 100%
 }
-
-.mainproject {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-
-.projects {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-.project {
-    margin: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    flex: 1;
-}
-
-.project1 {
-    text-align: right;
-    border-style: none;
-    background-image: url("../images/IMG_0157.JPG");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: stretch;
-    border-style: solid;
-    border-width: 10px;
-    border-color: var(--primary-color);
-}
-
-.project2 {
-    text-align: right;
-    border-style: none;
-    background-image: url("../images/IMG_2196.JPG");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: stretch;
-    border-style: solid;
-    border-width: 10px;
-    border-color: var(--primary-color);
-}
-
-.project3 {
-    text-align: right;
-    border-style: none;
-    background-image: url("../images/IMG_2023.JPG");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: stretch;
-    border-style: solid;
-    border-width: 10px;
-    border-color: var(--primary-color);
-}
-
-.project4 {
-    text-align: right;
-    border-style: none;
-    background-image: url("../images/IMG_0301.JPG");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: stretch;
-    border-style: solid;
-    border-width: 10px;
-    border-color: var(--primary-color);
-}
-
-.project:hover {
-    background-color: var(--tertiary-color);
-} 
+/*end footer style */
