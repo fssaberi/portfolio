@@ -62,20 +62,87 @@ header nav ul li a:hover {
 }
 /* end styles to <header> */
 
+.herobanner {
+    height: 20vh;
+    background-image: url(../images/IMG_0157.JPG);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.herobanner__text {
+    color: white;
+    padding: 1.5em;
+}
+
 .section-title {
     display: flex;
     flex-direction: column;
     align-items: left;
+    margin: 10px 600px 10px 10px;
 }
 
-.aboutme {
+.section {
     display: flex;
-    align-items: right;
+    width: 100%;
 }
 
-.work {
+.section__title {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+.container__item {
+    height: 100px;
+    width: 100px;
+}
+
+.picture-1 {
+    height: 300px;
+    width: 700px;
+    background-image: url(../images/IMG_0301.JPG);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.picture-2 {
+    background-image: url(../images/IMG_2023.JPG);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.picture-3 {
+    background-image: url(../images/IMG_2169.JPG);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.picture-4 {
+    background-image: url(../images/IMG_2200.JPG);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.picture-5 {
+    background-image: url(../images/IMG_2297.JPG);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
 }
 
 footer {
