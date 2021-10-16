@@ -189,3 +189,205 @@ footer {
     width: 100%
 }
 /*end footer style */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .herobanner {
+        height: 45vh;
+    }
+
+    .container__item {
+        height: 150px;
+        width: 45%;
+        margin: 0 0 22px 0;
+        background-position: center;
+        opacity: 0.5;
+        background-size: cover;
+        border: var(--primary-color) solid 10px;
+    }
+    
+    .container__title {
+        background-color: var(--primary-color);
+        width: 42%;
+        height: 43%;
+        align-items: center;
+        color: white;
+        opacity: none;
+    }
+
+    .main__title {
+        height: 30%;
+    }
+
+    .picture-1 {
+        height: 300px;
+        width: 100%;
+        background-image: url(../images/IMG_0301.JPG);
+        margin: 20px;
+    }
+
+    .contactme {
+        padding-right: 15px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLET AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .herobanner {
+        height: 45vh;
+    }
+
+    .container__item {
+        height: 100px;
+        width: 45%;
+        margin: 0 0 22px 0;
+        background-position: center;
+        opacity: 0.5;
+        background-size: cover;
+        border: var(--primary-color) solid 10px;
+    }
+    
+    .container__title {
+        background-color: var(--primary-color);
+        width: 40%;
+        height: 40%;
+        align-items: center;
+        color: white;
+        opacity: none;
+    }
+
+    .container__title h2 {
+        font-size: 14px;
+    }
+
+    .main__title {
+        height: 15%;
+        width: 30%;
+    }
+
+    .container__title p {
+        font-size: 10px;
+    }
+
+    .picture-1 {
+        height: 300px;
+        width: 100%;
+        background-image: url(../images/IMG_0301.JPG);
+        margin: 20px;
+    }
+
+    .contactme {
+        width: 154px;
+        margin-left: 75px;
+        padding-right: 25px;
+        text-align: left;
+    }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .herobanner {
+        height: 42vh;
+    }
+
+    .herobanner__text {
+        margin-bottom: 1%;
+        padding: 0 10px;
+    }
+
+    .section {
+        display: flex;
+        width: 100%;
+        flex-basis: content;
+        margin-top: 5px;
+    }
+    
+    .section__title {
+        display: flex;
+        align-items: top;
+        justify-content: flex-end;
+        padding-right: 20px;
+        margin-top: 10px;
+        margin-right: 31px;
+        margin-left: 20px;
+        font-size: xx-large;
+        border-right: var(--primary-color) solid;
+    }
+    
+    .aboutme {
+        margin-bottom: 0px;
+        padding-bottom: 0;
+    }
+    
+    .aboutme__p {
+        margin-top: 10px;
+        margin-right: 2vh;
+        margin-left: 2vh;
+    }
+    
+    .work {
+        padding: 0 33px 20px 0;
+        margin-bottom: 10px;
+    }
+    
+    .container__item {
+        height: 150px;
+        width: 90%;
+        margin: 0 0 22px 0;
+        background-position: center;
+        opacity: 0.5;
+        background-size: cover;
+        border: var(--primary-color) solid 10px;
+    }
+    
+    .container__title {
+        background-color: var(--primary-color);
+        width: 25%;
+        height: 30%;
+        align-items: center;
+        color: white;
+        opacity: none;
+    }
+    
+    .main__title {
+        height: 15%;
+        width: 35%;
+    }
+
+    .picture-1 {
+        height: 300px;
+        width: 100%;
+        background-image: url(../images/IMG_0301.JPG);
+        margin: 20px;
+    }
+
+    .contactme {
+        padding-right: 9px;
+    }
+}
