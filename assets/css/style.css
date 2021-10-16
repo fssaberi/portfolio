@@ -21,6 +21,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--tertiary-color);
+    padding: 20px 40px;
 }
 
 header h1 {
@@ -64,10 +65,9 @@ header nav ul li a:hover {
 
 /* start hero section */
 .herobanner {
-    height: 30vh;
-    background-image: url(../images/IMG_0157.JPG);
-    background-position: center;
-    opacity: 0.9;
+    height: 75vh;
+    background-image: url(../images/IMG_1592.JPG);
+    background-position: center top;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -84,6 +84,7 @@ header nav ul li a:hover {
     display: flex;
     width: 100%;
     flex-basis: content;
+    margin-top: 20px;
 }
 
 .section__title {
@@ -91,15 +92,27 @@ header nav ul li a:hover {
     align-items: top;
     justify-content: flex-end;
     padding-right: 20px;
-    margin-left: 15vh;
-    margin-right: 5vh;
+    margin-top: 20px;
+    margin-right: 31px;
+    margin-left: 93px;
     font-size: xx-large;
     border-right: var(--primary-color) solid;
 }
 
+.aboutme {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 .aboutme__p {
+    margin-top: 20px;
     margin-right: 2vh;
     margin-left: 2vh;
+}
+
+.work {
+    padding: 0 33px 20px 0;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -154,7 +167,7 @@ header nav ul li a:hover {
 }
 
 .picture-5 {
-    background-image: url(../images/IMG_2297.JPG);
+    background-image: url(../images/runbuddyimg.png);
 }
 
 /* start footer style */
@@ -162,6 +175,11 @@ footer {
     display: flex;
     align-items: right;
     margin-bottom: 40px;
+}
+
+.contactme {
+    margin-left: 60px;
+    padding-right: 1px;
 }
 
 .contact {
