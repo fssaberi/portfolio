@@ -1,4 +1,4 @@
-# week-2-challenge: Portfolio for Sara Brizendine
+Portfolio for Sara Brizendine
 
 This repository includes the content for Coding Bootcamp's Module 2/week 2 challenge.
 
