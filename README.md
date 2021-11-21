@@ -13,6 +13,6 @@ I have used Visual Studio Code for this project to update the index.html and sty
 I have added media queries so that the layout is responsive when the page is resized or viewed on screens and devices of various sizes. 
 
 ## Webpage
-You can access the GitHub repository here- https://github.com/fssaberi/week-2-challenge.git.
+You can access the GitHub repository here- https://github.com/fssaberi/portfolio.git.
 
-You can access the webpage here- https://fssaberi.github.io/week-2-challenge/.
+You can access the webpage here- https://fssaberi.github.io/portfolio/.
