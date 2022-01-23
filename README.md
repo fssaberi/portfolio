@@ -3,7 +3,7 @@ Portfolio for Sara Brizendine
 This repository includes the content for Coding Bootcamp's Module 2/week 2 challenge.
 
 ## Description
-This is my portfolio where I will be adding my projects as I develop and code them. The only project with a deployed application is project, "RunBuddy."
+This is my portfolio where I add my projects as I develop and code them.
 
 ## Software
 I have used Visual Studio Code for this project to update the index.html and style.css documents. 
